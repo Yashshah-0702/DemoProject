@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'DemoProject';
+  title = 'yash';
+  getNum(name:String,age:number){
+    alert(`My Name is ${name} and I am ${age} years old.`)
+  }
 }
